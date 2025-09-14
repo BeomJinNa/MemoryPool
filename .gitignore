@@ -1,0 +1,36 @@
+# CMake 관련 파일
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# 빌드 디렉토리
+build/
+bin/
+lib/
+
+# IDE 및 에디터 설정 파일
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# 컴파일러 생성 파일
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log

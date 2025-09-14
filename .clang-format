@@ -1,0 +1,37 @@
+# ===================================================================
+# Clang-Format Configuration
+# 모든 C++ 코드에 대한 세부 서식 규칙을 정의합니다.
+# BasedOnStyle: Microsoft 스타일을 기반으로 합니다.
+# ===================================================================
+Language: Cpp
+BasedOnStyle: Microsoft
+
+# --- 들여쓰기 (Indentation) ---
+IndentWidth: 4
+UseTab: Never
+TabWidth: 4
+IndentCaseLabels: true
+
+# --- 줄 바꿈 (New Lines & Braces) ---
+# Allman 스타일: 함수, 클래스, 네임스페이스 등의 여는 중괄호 '{'를 항상 다음 줄에 둡니다.
+BreakBeforeBraces: Allman
+AllowShortFunctionsOnASingleLine: None
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+# --- 공백 (Spacing) ---
+# 함수 이름과 괄호 사이 공백 제거 (예: main() )
+SpaceBeforeParens: Never
+# 제어문 키워드(if, for, while)와 괄호 사이에는 공백 추가
+SpaceAfterCStyleCast: true
+SpaceAfterTemplateKeyword: true
+SpaceBeforeRangeBasedForLoopColon: true
+
+# --- 포인터 및 참조 (Pointers & References) ---
+# 포인터/참조 기호를 타입 바로 뒤에 붙입니다. (예: int* p, const string& s)
+PointerAlignment: Left
+
+# --- 코드 줄 길이 제한 ---
+ColumnLimit: 120
